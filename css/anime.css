@@ -1,0 +1,18 @@
+.titre_anime{
+    display: flex;
+}
+
+.prod_anime{
+    display: flex;
+    flex-direction: row;
+}
+
+.txt_prod{
+    display: flex;
+    margin: 1em;
+}
+
+.txt_studio{
+    display: flex;
+    margin: 1em;
+}
