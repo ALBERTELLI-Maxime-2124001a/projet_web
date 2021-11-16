@@ -1,0 +1,28 @@
+body{
+    margin: 0,0,0,0;
+    padding: 0,0,0,0;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    background: url(../image/death-note-la-creation-de-kira-minimaliste-fond-d-ecran-1920x1080_48.jpg) no-repeat top center;
+}
+
+.note-top{
+    background: url(../image/notepad-top.png) no-repeat top center;
+    height: 300px;
+    margin: 0 auto;
+    position: relative;
+    margin-bottom: -63px;
+    width: 959px;
+}
+.note{
+    background: url(../image/notepad-middle.png) repeat-y top center;
+    width: 870px;
+    min-height: 500px;
+    margin: 0 auto;
+    margin-top: 0px;
+    margin-top: -1px;
+    padding: 0 20px 0 70px;
+    word-wrap: break-word;
+}
