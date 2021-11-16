@@ -1,5 +1,7 @@
 .titre_anime{
     display: flex;
+    font-size: 35px;
+    font-family: 'DEATH-FONT';
 }
 
 .prod_anime{
@@ -9,10 +11,67 @@
 
 .txt_prod{
     display: flex;
+    font-size: 20px;
+    font-family: 'Death-note-font';
     margin: 1em;
 }
 
 .txt_studio{
     display: flex;
+    font-size: 20px;
+    font-family: 'Death-note-font';
     margin: 1em;
+}
+
+.doublage{
+    display: flex;
+    flex-direction: column;
+    margin: 1em;
+}
+
+.doublage_txt{
+    display: flex;
+    font-size: 20px;
+    font-family: 'Death-note-font';
+}
+
+.doublage_img{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 1em;
+}
+
+.op{
+    display: flex;
+    flex-direction: column;
+    margin: 1em;
+}
+
+.op1{
+    display: flex;
+    font-size: 20px;
+    font-family: 'Death-note-font';
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 1em;
+}
+
+.txt_op1{
+    padding-top: 3.5em;
+    padding-right: 1em;
+}
+
+.op2{
+    display: flex;
+    font-size: 20px;
+    font-family: 'Death-note-font';
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 1em;
+}
+
+.txt_op2{
+    padding-top: 3em;
+    padding-right: 1em;
 }
