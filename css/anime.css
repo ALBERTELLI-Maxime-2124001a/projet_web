@@ -7,32 +7,43 @@
 .prod_anime{
     display: flex;
     flex-direction: row;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-color: black;
+    border-width: 0.75em;
 }
 
 .txt_prod{
     display: flex;
     font-size: 20px;
-    font-family: 'Death-note-font';
+    font-family: 'Montagu Slab', serif;
     margin: 1em;
 }
 
 .txt_studio{
     display: flex;
     font-size: 20px;
-    font-family: 'Death-note-font';
+    font-family: 'Montagu Slab', serif;
+    border-left-style: solid;
+    border-color: black;
+    border-width: 0.10em;
     margin: 1em;
+    padding-left: 2em;
 }
 
 .doublage{
     display: flex;
     flex-direction: column;
+    border-bottom-style: solid;
+    border-width: 0.75em;
+    border-color: black;
     margin: 1em;
 }
 
 .doublage_txt{
     display: flex;
     font-size: 20px;
-    font-family: 'Death-note-font';
+    font-family: 'Montagu Slab', serif;
 }
 
 .doublage_img{
@@ -42,19 +53,51 @@
     padding: 1em;
 }
 
+.doublage_img1{
+    border-left-style: solid;
+    border-color: black;
+    border-width: 0.25em;
+    padding: 1em;
+    padding-top: 3em;
+}
+
+.doublage_img2{
+    border-left-style: solid;
+    border-color: black;
+    border-width: 0.25em;
+    padding: 1em;
+    padding-left: 2em;
+}
+
+.doublage_img3{
+    border-left-style: solid;
+    border-right-style: solid;
+    border-color: black;
+    border-width: 0.25em;
+    padding: 1em;
+    padding-top: 5em;
+}
+
 .op{
     display: flex;
     flex-direction: column;
+    border-bottom-style: solid;
+    border-color: black;
+    border-width: 0.75em;
     margin: 1em;
 }
 
 .op1{
     display: flex;
     font-size: 20px;
-    font-family: 'Death-note-font';
+    font-family: 'Montagu Slab';
     flex-direction: row;
     justify-content: space-around;
+    border-bottom-style: solid;
+    border-color: black;
+    border-width: 0.10em;
     padding: 1em;
+    padding-bottom: 1.5em;
 }
 
 .txt_op1{
@@ -65,7 +108,7 @@
 .op2{
     display: flex;
     font-size: 20px;
-    font-family: 'Death-note-font';
+    font-family: 'Montagu Slab';
     flex-direction: row;
     justify-content: space-around;
     padding: 1em;
