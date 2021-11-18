@@ -1,10 +1,13 @@
 :root {
     font-size: 16px;
-    font-family: Cloister;
+    font-family: Montagu Slab;
     --text-primary: #b6b6b6;
     --text-secondary: #ececec;
     --bg-primary: #23232e;
     --bg-secondary: #141418;
+    --transition-speed: 600ms;
+    scrollbar-width: thin;
+    scrollbar-color: #6649b8 #1e1e24;
 }
 
 body::-webkit-scrollbar {
@@ -35,7 +38,6 @@ body{
 
 .navbar {
     width: 5rem;
-    height: 100vh;
     position: fixed;
     background-color: var(--bg-primary);
     transition: width 200ms ease;
@@ -51,7 +53,7 @@ body{
     height: 100%;
 }
 
-.nav-item {
+.navbar-item {
     width: 100%;
 }
 
@@ -80,9 +82,12 @@ body{
 .link-text {
     display:none;
     margin-left: 1rem;
+    font-family: Cloister;
+    font-size: 24px;
 }
 
 .nav-link svg {
+    width: 2rem;
     min-width: 2rem;
     margin: 0 1.5rem;
 }
@@ -133,3 +138,17 @@ body{
     z-index: 1;
     flex-direction: column;
 }
+
+.navbar {
+    top: 0;
+    width: 5rem;
+    height: 100vh;
+  }
+
+  .navbar:hover {
+    width: 16rem;
+  }
+
+  .navbar:hover .link-text {
+    display: inline;
+  }
