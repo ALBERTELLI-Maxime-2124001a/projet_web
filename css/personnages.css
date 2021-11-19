@@ -8,7 +8,7 @@ perso {
     font-family: 'DEATH-FONT';
 }
 
-.light {
+.near {
     display : flex;
     flex-direction: row;
     align-items: center;
