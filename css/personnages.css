@@ -1,54 +1,48 @@
-body {
-    background:url(../image/fond.jpg) no-repeat top center;
+perso {
+    font-family: Cloister;
 }
 
-.near {
+.titre_personnages{
+    display: flex;
+    font-size: 35px;
+    font-family: 'DEATH-FONT';
+}
+
+.personnages {
     display : flex;
     flex-direction: row;
     align-items: center;
 }
 
-.texte_near {
+.texte {
     margin: 2%;
-    background-color: lightgrey;
+}
 
+
+img {
+    width: 200px;
+	height: auto;
 }
 
 .mello {
     display : flex;
     flex-direction: row;
-
     align-items: center;
 }
 
-.texte_mello {
-    margin: 2%;
-    background-color: lightgrey;
-
-}
 
 .rem {
     display : flex;
     flex-direction: row;
-
     align-items: center;
-}
-
-.texte_rem {
-    margin: 2%;
-    background-color: lightgrey;
 }
 
 .misa {
     display : flex;
     flex-direction: row;
-
+    align-items: center;
 }
 
-.texte_misa {
-    margin: 2%;
-    background-color: lightgrey;
-}
 
 .ryuk {
     display : flex;
@@ -56,36 +50,17 @@ body {
     align-items: center;
 }
 
-.texte_ryuk {
-    margin: 2%;
-    background-color: lightgrey;
-}
 
 .l {
     display : flex;
     flex-direction: row;
-
     align-items: center;
 }
 
-.texte_l {
-    margin: 2%;
-    background-color: lightgrey;
-}
 
 .light {
     display : flex;
     flex-direction: row;
 
     align-items: center;
-}
-
-.texte_light {
-    margin: 2%;
-    background-color: lightgrey;    
-}
-
-img {
-    width: 200px;
-	height: 150px;
 }
