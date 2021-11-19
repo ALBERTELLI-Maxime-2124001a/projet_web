@@ -46,10 +46,43 @@
         flex-direction: column;
         border-top-style: solid;
         border-bottom-style: solid;
-        border-color: red;
+        border-color: black;
         border-width: 0.75em;
+        margin: 1em;
+    }
+    .txt_studio{
+        display: flex;
+        font-size: 20px;
+        font-family: 'Montagu Slab', serif;
+        border-top-style: solid;
+        border-color: black;
+        border-left-style: none;
+        border-width: 0.10em;
+        padding-top: 1em;
+        padding-left: 0em;
+    }
+    .op1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .video1_op{
+        display: flex;
+        justify-content: center;
+        margin: 1em;
+    }
+    .op2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .video2_op{
+        display: flex;
+        justify-content: center;
+        margin: 1em;
     }
     .note{
         display:flex;
+        margin-left: 3em;
     }
 } 

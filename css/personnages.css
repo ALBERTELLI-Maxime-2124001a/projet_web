@@ -1,0 +1,91 @@
+body {
+    background:url(../image/fond.jpg) no-repeat top center;
+}
+
+.near {
+    display : flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.texte_near {
+    margin: 2%;
+    background-color: lightgrey;
+
+}
+
+.mello {
+    display : flex;
+    flex-direction: row;
+
+    align-items: center;
+}
+
+.texte_mello {
+    margin: 2%;
+    background-color: lightgrey;
+
+}
+
+.rem {
+    display : flex;
+    flex-direction: row;
+
+    align-items: center;
+}
+
+.texte_rem {
+    margin: 2%;
+    background-color: lightgrey;
+}
+
+.misa {
+    display : flex;
+    flex-direction: row;
+
+}
+
+.texte_misa {
+    margin: 2%;
+    background-color: lightgrey;
+}
+
+.ryuk {
+    display : flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.texte_ryuk {
+    margin: 2%;
+    background-color: lightgrey;
+}
+
+.l {
+    display : flex;
+    flex-direction: row;
+
+    align-items: center;
+}
+
+.texte_l {
+    margin: 2%;
+    background-color: lightgrey;
+}
+
+.light {
+    display : flex;
+    flex-direction: row;
+
+    align-items: center;
+}
+
+.texte_light {
+    margin: 2%;
+    background-color: lightgrey;    
+}
+
+img {
+    width: 200px;
+	height: 150px;
+}
