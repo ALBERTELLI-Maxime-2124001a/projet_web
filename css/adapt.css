@@ -51,10 +51,5 @@
     }
     .note{
         display:flex;
-        background: url(../image/notepad-middle-1100.png) repeat-y top center;;
-        margin-right: 2em;
-        margin-left: 2em;
-        word-wrap: break-word;
-        flex-direction: column;
     }
 } 
