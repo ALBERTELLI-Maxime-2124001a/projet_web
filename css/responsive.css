@@ -95,6 +95,9 @@
     .nav-link{
         justify-content: center;
     }
+    .note{
+        margin-bottom: 5rem;
+    }
 } 
 
 @media (min-width: 1150px) {
