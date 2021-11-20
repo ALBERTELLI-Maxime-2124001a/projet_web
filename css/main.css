@@ -51,6 +51,12 @@ body{
     transition: width 200ms ease;
 }
 
+.navbar {
+    top: 0;
+    width: 5rem;
+    height: 100vh;
+}
+
 .navbar-nav{
     display:flex;
     list-style: none;
@@ -90,7 +96,7 @@ body{
 .link-text {
     display:none;
     margin-left: 1rem;
-    font-family: Cloister;
+    font-family: Death-Note-Font;
     font-size: 24px;
 }
 
@@ -101,7 +107,7 @@ body{
 }
 
 .navbar:hover{
-    width: 16rem;
+    width: 20rem;
 }
 
 .navbar:hover .link-text {
@@ -120,15 +126,6 @@ body{
     transition: var(--transition-speed);
 }
 
-
-.note-top{
-    background: url(../image/notepad-top-1100.png) no-repeat top center;
-    height: 600px;
-    margin: 0 auto;
-    position: relative;
-    margin-bottom: -303px;
-    width: 1100px;
-}
 .note{
     display:flex;
     background: url(../image/notepad-middle-1100.png) repeat-y top center;
@@ -147,16 +144,4 @@ body{
     flex-direction: column;
 }
 
-.navbar {
-    top: 0;
-    width: 5rem;
-    height: 100vh;
-  }
 
-  .navbar:hover {
-    width: 16rem;
-  }
-
-  .navbar:hover .link-text {
-    display: inline;
-  }
