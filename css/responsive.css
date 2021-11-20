@@ -41,6 +41,9 @@
 }
 
 @media (max-width: 1150px) {
+    body{
+        background-color: #141418;
+    }
     .prod_anime{
         display: flex;
         flex-direction: column;
@@ -81,10 +84,6 @@
         justify-content: center;
         margin: 1em;
     }
-    .note{
-        display:flex;
-        margin-left: 3em;
-    }
     .navbar {
         bottom: 0;
         width: 100%;
@@ -99,6 +98,13 @@
 } 
 
 @media (min-width: 1150px) {
+    body{
+        background: url(../image/death-note-la-creation-de-kira-minimaliste-fond-d-ecran-1920x1080_48.jpg) no-repeat top center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
     .navbar{
         top: 0;
         width: 5rem;
