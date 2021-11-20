@@ -2,12 +2,6 @@ perso {
     font-family: Cloister;
 }
 
-.titre_personnages{
-    display: flex;
-    font-size: 35px;
-    font-family: 'DEATH-FONT';
-}
-
 .near {
     display : flex;
     flex-direction: row;

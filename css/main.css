@@ -10,6 +10,14 @@
     scrollbar-color: #6649b8 #1e1e24;
 }
 
+h1 {
+    display: none;
+}
+h2{
+    display: flex;
+    font-size: 70px;
+    font-family: 'DEATH-FONT';
+}
 body::-webkit-scrollbar {
     width: 0.25rem;
 }
