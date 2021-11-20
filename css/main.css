@@ -51,12 +51,6 @@ body{
     transition: width 200ms ease;
 }
 
-.navbar {
-    top: 0;
-    width: 5rem;
-    height: 100vh;
-}
-
 .navbar-nav{
     display:flex;
     list-style: none;
@@ -71,11 +65,9 @@ body{
     width: 100%;
 }
 
-/*
-.nav-item:last-child{
-    margin-top:auto
+.navbar-item:last-child{
+    margin-top:auto;
 }
-*/
 
 .nav-link {
     display:flex;
@@ -106,26 +98,6 @@ body{
     margin: 0 1.5rem;
 }
 
-.navbar:hover{
-    width: 20rem;
-}
-
-.navbar:hover .link-text {
-    display: block;
-}
-
-.fa-primary {
-    color: #ff7eee;
-}
-
-.fa-secondary {
-    color: #df49a6;
-}
-
-.fa-primary,.fa-secondary {
-    transition: var(--transition-speed);
-}
-
 .note{
     display:flex;
     background: url(../image/notepad-middle-1100.png) repeat-y top center;
@@ -140,7 +112,6 @@ body{
     margin-top: -0.9em;
     padding-left: 70px;
     padding-right: 30px;
-    z-index: 1;
     flex-direction: column;
 }
 
