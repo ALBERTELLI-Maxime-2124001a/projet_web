@@ -1,9 +1,3 @@
-.titre_anime{
-    display: flex;
-    font-size: 35px;
-    font-family: 'DEATH-FONT';
-}
-
 .prod_anime{
     display: flex;
     flex-direction: row;
