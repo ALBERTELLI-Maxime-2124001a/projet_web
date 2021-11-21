@@ -54,13 +54,15 @@ button a:hover {
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
-    margin-right: 10em;
-    margin-left: 10em;
+    margin-right: 6em;
+    margin-left: 6em;
 }
 
 .img img{
     width: 4cm;
     height: 6cm;
+    margin-right: 2em;
+    margin-left: 2em;
 }
 
 .imgtxt{
@@ -123,3 +125,4 @@ iframe{
     margin-top: 40px;
     margin-left: 90px;
 }
+

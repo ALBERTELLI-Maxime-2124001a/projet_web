@@ -1,10 +1,19 @@
 <!DOCTYPE html>
+<html lang="fr">
 <head>
-    <html lang="fr">
-    <link rel="stylesheet" href="css/main.css">
+    <meta charset="utf-8">
+    <link rel="icon" type="img/png" sizes="32x32" href="image/death_note_favicon.png">
+    <meta name="keywords" content="Death Note, Formulaire, Avis, Feedback"/>
+    <meta name="description" content="Donnez votre avis dur les différents médias Death Note"/>
     <link rel="stylesheet" href="css/fonts.css">
-    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/color-death.css" id="death-theme" media="none">
+    <link rel="stylesheet" href="css/navbar.css" id="navbar-normal" media="">
+    <link rel="stylesheet" href="css/navbar-alt.css" id="navbar-alt" media="none">
+    <link rel="stylesheet" href="css/responsive.css" id="responsive-normal" media="">
+    <link rel="stylesheet" href="css/responsive-alt.css" id="responsive-alt" media="none">
     <link rel="stylesheet" type="text/css" href="css/formulaire.css"/>
+    <script defer src="js/theme-switcher.js"></script>
     <title> Formulaire - Death Note </title>
 </head>
 <body>
@@ -29,7 +38,7 @@
                 </a>
             </li>
             <li class="navbar-item">
-                <a href="film.html" class="nav-link">
+                <a href="lefilm.html" class="nav-link">
                     <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="film" class="svg-inline--fa fa-film" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M463.1 32h-416C21.49 32-.0001 53.49-.0001 80v352c0 26.51 21.49 48 47.1 48h416c26.51 0 48-21.49 48-48v-352C511.1 53.49 490.5 32 463.1 32zM111.1 408c0 4.418-3.582 8-8 8H55.1c-4.418 0-8-3.582-8-8v-48c0-4.418 3.582-8 8-8h47.1c4.418 0 8 3.582 8 8L111.1 408zM111.1 280c0 4.418-3.582 8-8 8H55.1c-4.418 0-8-3.582-8-8v-48c0-4.418 3.582-8 8-8h47.1c4.418 0 8 3.582 8 8V280zM111.1 152c0 4.418-3.582 8-8 8H55.1c-4.418 0-8-3.582-8-8v-48c0-4.418 3.582-8 8-8h47.1c4.418 0 8 3.582 8 8L111.1 152zM351.1 400c0 8.836-7.164 16-16 16H175.1c-8.836 0-16-7.164-16-16v-96c0-8.838 7.164-16 16-16h160c8.836 0 16 7.162 16 16V400zM351.1 208c0 8.836-7.164 16-16 16H175.1c-8.836 0-16-7.164-16-16v-96c0-8.838 7.164-16 16-16h160c8.836 0 16 7.162 16 16V208zM463.1 408c0 4.418-3.582 8-8 8h-47.1c-4.418 0-7.1-3.582-7.1-8l0-48c0-4.418 3.582-8 8-8h47.1c4.418 0 8 3.582 8 8V408zM463.1 280c0 4.418-3.582 8-8 8h-47.1c-4.418 0-8-3.582-8-8v-48c0-4.418 3.582-8 8-8h47.1c4.418 0 8 3.582 8 8V280zM463.1 152c0 4.418-3.582 8-8 8h-47.1c-4.418 0-8-3.582-8-8l0-48c0-4.418 3.582-8 7.1-8h47.1c4.418 0 8 3.582 8 8V152z"></path></svg>
                     <span class="link-text">Film</span>
                 </a>
@@ -46,11 +55,20 @@
                     <span class="link-text">Vos avis</span>
                 </a>
             </li>
-            <li class="navbar-item">
-                <a href="" class="nav-link">
+            <li class="navbar-item has-dropdown">
+                <a id="js" href="#" class="nav-link">
                     <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="circle-dot" class="svg-inline--fa fa-circle-dot" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M256 0C114.6 0 0 114.6 0 256s114.6 256 256 256s256-114.6 256-256S397.4 0 256 0zM352 256c0 52.95-43.05 96-96 96S160 308.1 160 256s43.05-96 96-96S352 203.1 352 256z"></path></svg>
-                    <span class="link-text">JavaScript</span>
+                    <span class="link-text">Themes</span>
                 </a>
+                <ul class="dropdown">
+                    <li class="dropdown-item">
+                        <a id="colors" href="#">colors</a>
+                    </li>
+                    <li><div class="line"></div></li>
+                    <li class="dropdown-item">
+                        <a id="navbar" href="#">navbar</a>
+                    </li>
+                </ul>
             </li>
         </ul>
     </nav>
