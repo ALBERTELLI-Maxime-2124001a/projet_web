@@ -2,3 +2,47 @@
     padding-bottom: 20em;
 
 }
+
+.resume{
+    display: flex;
+    font-size: 20px;
+    font-family: 'Montagu Slab', serif;
+    margin: 1em;
+}
+
+.regles{
+    display: flex;
+    font-size: 20px;
+    font-family: 'Montagu Slab', serif;
+    margin: 1em;
+}
+
+.txt_acc{
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    font-family: 'Montagu Slab', serif;
+    margin: 1em;
+    border-top-style: solid;
+    border-color: black;
+    border-width: 0.10em;
+}
+
+.sous-titre_acc{
+    padding: 1em;
+    font-size: 22px;
+    border-top-style: solid;
+    border-color: black;
+    border-width: 0.10em;
+}
+
+.pres_txt{
+    display:flex;
+    flex-direction: row;
+}
+
+.img_pres{
+    display: flex;
+    justify-content: center;
+    padding: 1em;
+}
