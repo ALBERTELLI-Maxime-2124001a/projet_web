@@ -5,8 +5,11 @@
         <link rel="stylesheet" href="css/fonts.css">
         <link rel="stylesheet" href="css/main.css">
         <link rel="stylesheet" href="css/color-death.css" id="death-theme" media="none">
+        <link rel="stylesheet" href="css/navbar.css" id="navbar-normal" media="">
+        <link rel="stylesheet" href="css/navbar-alt.css" id="navbar-alt" media="none">
+        <link rel="stylesheet" href="css/responsive.css" id="responsive-normal" media="">
+        <link rel="stylesheet" href="css/responsive-alt.css" id="responsive-alt" media="none">
         <link rel="stylesheet" href="css/index.css">
-        <link rel="stylesheet" href="css/responsive.css">
         <script defer src="js/theme-switcher.js"></script>
         <title>L'animé - Death Note</title>
     </head>
@@ -49,11 +52,19 @@
                         <span class="link-text">Vos avis</span>
                     </a>
                 </li>
-                <li class="navbar-item">
-                    <a id="death" href="#" class="nav-link">
+                <li class="navbar-item has-dropdown">
+                    <a id="js" href="#" class="nav-link">
                         <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="circle-dot" class="svg-inline--fa fa-circle-dot" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M256 0C114.6 0 0 114.6 0 256s114.6 256 256 256s256-114.6 256-256S397.4 0 256 0zM352 256c0 52.95-43.05 96-96 96S160 308.1 160 256s43.05-96 96-96S352 203.1 352 256z"></path></svg>
-                        <span class="link-text">JavaScript</span>
+                        <span class="link-text">Themes</span>
                     </a>
+                    <ul class="dropdown">
+                        <li class="dropdown-item">
+                            <a id="colors" href="#">colors</a>
+                        </li>
+                        <li class="dropdown-item">
+                            <a id="navbar" href="#">navbar</a>
+                        </li>
+                    </ul>
                 </li>
             </ul>
         </nav>

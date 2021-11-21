@@ -1,0 +1,109 @@
+.navbar {
+    width: 5rem;
+    position: fixed;
+    background-color: var(--bg-primary);
+    transition: width 200ms ease;
+}
+
+.navbar-nav{
+    display:flex;
+    list-style: none;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    height: 100%;
+}
+
+.navbar-item {
+    width: 100%;
+}
+
+.navbar-item:last-child{
+    margin-top:auto;
+}
+
+.nav-link {
+    display:flex;
+    align-items: center;
+    height: 5rem;
+    color: var(--text-primary);
+    text-decoration: none;
+    filter: grayscale(100%) opacity(0.7);
+    transition: var(--transition-speed);
+}
+
+.nav-link:hover {
+    filter: grayscale(0%) opacity(1);
+    background: var(--bg-secondary);
+    color: var(--text-secondary);
+}
+
+.link-text {
+    display:none;
+    margin-left: 1rem;
+    font-family: Death-Note-Font;
+    font-size: 24px;
+}
+
+.nav-link svg {
+    width: 2rem;
+    min-width: 2rem;
+    margin: 0 1.5rem;
+}
+
+.dropdown{
+    position:absolute;
+    width:10rem;
+    opacity: 0;
+    z-index: 2;
+    background: var(--bg-primary);
+    border-left: 2px solid white;
+    color: var(--text-primary);
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    display:none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 10em;
+    margin-top:-11rem;
+    margin-left:24.4rem;
+    padding:0.5rem;
+    list-style-type:none;
+    box-shadow: rgba(2, 8, 20, 0.1) 0px 0.175rem 0.5rem;
+    transform: translateX(-40%);
+    transition: opacity .15s ease-out;
+    transition: display .15s ease-out;
+}
+
+a {
+    color:currentColor;
+    text-decoration: none;
+}
+
+.navbar:hover .has-dropdown:focus-within .dropdown {
+    display:flex;
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.dropdown-item a {
+    width: 100%;
+    height: 100%;
+    size: 0.7rem;
+    padding-left: 10px;
+    font-weight: bold;
+    font-family: 'Death-Note-Font';
+}
+
+.dropdown-item a::before {
+    content: " ";
+    border: 2px solid white;
+    border-radius:50%;
+    width: 2rem;
+    height: 2rem;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+}
