@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 .rating a {
     color: #aaa;
     text-decoration: none;
@@ -67,6 +69,10 @@ button a:hover {
     text-align: center;
 }
 
+.imgtxt p {
+    font-family: 'Roboto', sans-serif;
+}
+
 .fiche{
     display: flex;
     flex-direction: row;
@@ -95,3 +101,11 @@ ul{
     border-color: #000000;
     border-width: 0.50em;
 }    
+
+iframe{
+    padding-bottom: 5rem;
+}
+
+.note-contenu p {
+    font-size: 22px;
+}
