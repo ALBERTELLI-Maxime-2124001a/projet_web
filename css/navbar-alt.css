@@ -70,7 +70,7 @@
     margin-top:1em;
     padding:0.5em;
     list-style-type:none;
-    box-shadow: rgba(2, 8, 20, 0.1) 0px 0.175rem 0.5rem;
+    box-shadow: rgba(2, 8, 20, 0.5) 0px 0.175rem 0.5rem;
     transform: translateX(-50%);
     transition: opacity .15s ease-out;
 }
@@ -94,13 +94,8 @@ a {
     font-family: 'Death-Note-Font';
 }
 
-.dropdown-item a::before {
-    content: " ";
-    border: 2px solid white;
-    border-radius:50%;
-    width: 2rem;
-    height: 2rem;
-    display: inline-block;
-    vertical-align: middle;
-    margin-right: 10px;
+.line {
+    border-left: 0.1rem solid white;
+    padding-top: 1.3rem;
+    padding-bottom: 1.3rem;
 }

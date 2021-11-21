@@ -97,13 +97,15 @@ a {
     font-family: 'Death-Note-Font';
 }
 
-.dropdown-item a::before {
-    content: " ";
-    border: 2px solid white;
-    border-radius:50%;
-    width: 2rem;
-    height: 2rem;
-    display: inline-block;
-    vertical-align: middle;
-    margin-right: 10px;
+.line {
+    border-bottom: 0.1rem solid white;
+    padding-left: 4rem;
+    padding-right: 4rem;
+}
+
+.dropdown svg {
+    width: 1.5rem;
+    min-width: 1.5rem;
+    margin-right: 1rem;
+    margin-bottom: 0rem;
 }
