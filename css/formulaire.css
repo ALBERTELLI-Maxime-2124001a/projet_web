@@ -7,3 +7,8 @@
     display: flex;
     justify-content: center;
 }
+
+.space {
+    padding-bottom: 50em;
+    overflow: hidden;
+}
