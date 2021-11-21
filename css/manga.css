@@ -1,0 +1,32 @@
+.Synopsis {
+    display : flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.tome {
+    display : flex;
+    flex-direction: row;
+
+    align-items: center;
+}
+
+.banner {
+    display : flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-bottom: 5rem;
+}
+
+.banner img {
+    width: 400px;
+}
+.oneshot {
+    display : flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.note-contenu {
+    padding-bottom: 5rem;
+}
