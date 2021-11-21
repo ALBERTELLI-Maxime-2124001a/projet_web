@@ -1,0 +1,141 @@
+@media (max-width:1250px){
+    .prod_anime{
+        display: flex;
+        flex-direction: column;
+        border-top-style: solid;
+        border-bottom-style: solid;
+        border-color: black;
+        border-width: 0.75em;
+    }
+    .txt_studio{
+        display: flex;
+        font-size: 20px;
+        font-family: 'Montagu Slab', serif;
+        border-top-style: solid;
+        border-color: black;
+        border-left-style: none;
+        border-width: 0.10em;
+        padding-top: 1em;
+        padding-left: 0em;
+    }
+    .op1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .video1_op{
+        display: flex;
+        justify-content: center;
+        margin: 1em;
+    }
+    .op2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .video2_op{
+        display: flex;
+        justify-content: center;
+        margin: 1em;
+    }
+}
+
+@media (max-width: 1150px) {
+    body{
+        background-color: #141418;
+    }
+    .prod_anime{
+        display: flex;
+        flex-direction: column;
+        border-top-style: solid;
+        border-bottom-style: solid;
+        border-color: black;
+        border-width: 0.75em;
+        margin: 1em;
+    }
+    .txt_studio{
+        display: flex;
+        font-size: 20px;
+        font-family: 'Montagu Slab', serif;
+        border-top-style: solid;
+        border-color: black;
+        border-left-style: none;
+        border-width: 0.10em;
+        padding-top: 1em;
+        padding-left: 0em;
+    }
+    .op1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .video1_op{
+        display: flex;
+        justify-content: center;
+        margin: 1em;
+    }
+    .op2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .video2_op{
+        display: flex;
+        justify-content: center;
+        margin: 1em;
+    }
+    .navbar {
+        bottom: 0;
+        width: 100%;
+        height: 10rem;
+    }
+    .navbar-nav {
+        flex-direction: row;
+    }
+    .nav-link{
+        justify-content: center;
+        height: 10rem;
+    }
+    .note{
+        margin-bottom: 10rem;
+    }
+    .nav-link svg {
+        width: 5rem;
+    }
+} 
+
+@media (min-width: 1150px) {
+    body{
+        background: url(../image/death-note-la-creation-de-kira-minimaliste-fond-d-ecran-1920x1080_48.jpg) no-repeat top center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+    .navbar {
+        top: 0;
+        width: 100%;
+        height: 5rem;
+    }
+    .note{
+        margin-top: 5rem;
+    }
+    .navbar-nav {
+        flex-direction: row;
+    }
+    .nav-link{
+        justify-content: center;
+        height: 5rem;
+        margin-left: -2rem;
+    }
+
+    .navbar .link-text {
+        display: inline;
+        transition: opacity var(--transition-speed);
+        margin-left: -1rem;
+    }
+    
+    .nav-link svg {
+        width: 2rem;
+    } 
+} 
