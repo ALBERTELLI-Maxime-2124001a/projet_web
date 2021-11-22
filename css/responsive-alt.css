@@ -104,6 +104,17 @@
     }
     .dropdown{
         transform: translateX(-70%);
+        font-size: 40px;
+        padding-right:2em;
+        padding-left: 2em;
+    }
+    .dropdown-item a{
+        padding-right: 1em;
+        padding-left: 1em;
+    }
+    .line {
+        padding-top: 3rem;
+        padding-bottom: 3rem;
     }
 } 
 
