@@ -91,6 +91,9 @@
     .txt_studio{
         margin: 0em;
     }
+    h3 {
+        font-size:40px;
+    }
 } 
 
 @media (min-width: 1150px) {

@@ -38,3 +38,8 @@ img {
 b {
     font-family: 'Open Sans', sans-serif;
 }
+
+div {
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+}
