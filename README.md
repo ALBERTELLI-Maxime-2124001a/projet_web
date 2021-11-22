@@ -1,2 +1,2 @@
 # projet_web
-honnêtement très osef ce readme
+Le site web se trouve ici : https://death-note.alwaysdata.net
