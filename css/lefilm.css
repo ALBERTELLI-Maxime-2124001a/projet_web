@@ -83,7 +83,7 @@ button a:hover {
     justify-content: space-between;
 }
 
-ul{
+.fiche ul{
     list-style-type: none;
     font-size: 18px;
     margin-inline-end: 5em;

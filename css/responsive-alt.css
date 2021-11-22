@@ -85,7 +85,7 @@
         margin: 1em;
     }
     .navbar {
-        bottom: 0;
+        top: 0;
         width: 100%;
         height: 10rem;
     }
@@ -101,6 +101,9 @@
     }
     .nav-link svg {
         width: 5rem;
+    }
+    .dropdown{
+        transform: translateX(-70%);
     }
 } 
 

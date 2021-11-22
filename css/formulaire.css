@@ -10,5 +10,8 @@
 
 .space {
     padding-bottom: 50em;
+}
+
+body {
     overflow: hidden;
 }

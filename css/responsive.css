@@ -102,6 +102,42 @@
     .nav-link svg {
         width: 5rem;
     }
+    .dropdown {
+        position: absolute;
+        width: 10rem;
+        opacity: 0;
+        z-index: 2;
+        background: var(--bg-primary);
+        border-bottom: 2px solid white;
+        color: var(--text-primary);
+        border-top-right-radius: 8px;
+        border-top-left-radius: 8px;
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        height: 10em;
+        margin-top: -21rem;
+        margin-left: 2rem;
+        padding: 0.5rem;
+        list-style-type: none;
+        box-shadow: rgba(2, 8, 20, 0.1) 0px 0.175rem 0.5rem;
+        transform: translateX(-40%);
+        transition: opacity .15s ease-out;
+        transition: display .15s ease-out;
+    }
+    .has-dropdown:focus-within .dropdown {
+        display:flex;
+        opacity: 1;
+        pointer-events: auto;
+    }
+    .gotopbtn {
+        position: fixed;
+        width: 50px;
+        height : 50px;
+        bottom: 200px;
+        left: 50px;
+    }
 } 
 
 @media (min-width: 1150px) {
@@ -123,5 +159,34 @@
     .navbar:hover .link-text {
         display: inline;
         transition: opacity var(--transition-speed);
+    }
+    .dropdown{
+        position:absolute;
+        width:10rem;
+        opacity: 0;
+        z-index: 2;
+        background: var(--bg-primary);
+        border-left: 2px solid white;
+        color: var(--text-primary);
+        border-top-right-radius: 8px;
+        border-bottom-right-radius: 8px;
+        display:none;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        height: 10em;
+        margin-top:-11rem;
+        margin-left:24.4rem;
+        padding:0.5rem;
+        list-style-type:none;
+        box-shadow: rgba(2, 8, 20, 0.1) 0px 0.175rem 0.5rem;
+        transform: translateX(-40%);
+        transition: opacity .15s ease-out;
+        transition: display .15s ease-out;
+    }
+    .navbar:hover .has-dropdown:focus-within .dropdown {
+        display:flex;
+        opacity: 1;
+        pointer-events: auto;
     }
 } 
