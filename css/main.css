@@ -62,8 +62,8 @@ perso {
 
 .gotopbtn {
     position: fixed;
-    width: 70px;
-    height : 70px;
+    width: 140px;
+    height : 140px;
     bottom: 40px;
     right: 50px;
     background-color: rgba(255, 255, 255, 0.404);
@@ -74,6 +74,6 @@ perso {
 
 }
 .gotopbtn svg {
-    width : 50px;
-    height: 50px;
+    width : 100px;
+    height: 100px;
 }
