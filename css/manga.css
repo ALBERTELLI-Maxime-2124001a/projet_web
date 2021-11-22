@@ -7,7 +7,6 @@
 .tome {
     display : flex;
     flex-direction: row;
-
     align-items: center;
 }
 
@@ -29,4 +28,13 @@
 
 .note-contenu {
     padding-bottom: 5rem;
+}
+
+img {
+    width: 200px;
+	height: auto;
+    padding: 1rem;
+}
+b {
+    font-family: 'Open Sans', sans-serif;
 }
