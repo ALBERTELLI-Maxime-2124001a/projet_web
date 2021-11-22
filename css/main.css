@@ -18,6 +18,14 @@ h2{
     font-size: 70px;
     font-family: 'DEATH-FONT';
 }
+h3 {
+    padding: 1em;
+    font-size: 22px;
+    border-top-style: solid;
+    border-color: black;
+    border-width: 0.10em;
+    font-family: 'Open Sans', sans-serif;
+}
 body::-webkit-scrollbar {
     width: 0.25rem;
 }
