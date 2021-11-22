@@ -43,13 +43,11 @@ body{
     margin-top: 0;
     padding-top: 0;
     padding-bottom: 0;
-    color:black;
     font-family: Montagu Slab;
 }
 
 .note{
     display:flex;
-    background: url(../image/notepad-middle-1100.png) repeat-y top center;
     width: 1100px;
     margin: auto;
     word-wrap: break-word;
@@ -64,7 +62,7 @@ body{
     flex-direction: column;
 }
 
-perso {
+pre {
     font-family: Cloister;
 }
 
@@ -84,4 +82,12 @@ perso {
 .gotopbtn svg {
     width : 100px;
     height: 100px;
+}
+
+.note-contenu p, .note-contenu pre {
+    display : inline;
+}
+
+iframe {
+    border: 0;
 }

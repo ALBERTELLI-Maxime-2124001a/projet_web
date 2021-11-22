@@ -1,8 +1,7 @@
-deathTheme = document.getElementById("death-theme");
-navbarNormal = document.getElementById("navbar-normal");
-navbarAlt = document.getElementById("navbar-alt");
-responsiveNavbarNormal = document.getElementById("responsive-normal");
-responsiveNavbarAlt = document.getElementById("responsive-alt");
+deathTheme = document.getElementById("color-theme");
+navbarMode = document.getElementById("navbar-normal");
+responsiveNavbarMode = document.getElementById("responsive-normal");
+
 
 const colorsButton = document.getElementById('colors');
 const navbarButton = document.getElementById('navbar');
@@ -13,23 +12,21 @@ var themeColorsjs = themeColors;
 var themeNavbarjs = themeNavbar;
 
 if (themeColors == 'death') {
-    deathTheme.setAttribute('media', '');
+    deathTheme.setAttribute('href', 'css/color-death.css');
 }
 
 if (themeNavbar == 'alt') {
-    navbarNormal.setAttribute('media', 'none');
-    navbarAlt.setAttribute('media', '');
-    responsiveNavbarNormal.setAttribute('media', 'none');
-    responsiveNavbarAlt.setAttribute('media', '');
+    navbarMode.setAttribute('href', 'css/navbar-alt.css');
+    responsiveNavbarMode.setAttribute('href', 'css/responsive-alt.css');
 }
 
 colorsButton.onclick = () => {
     if (themeColorsjs == 'death') {
-        deathTheme.setAttribute('media', 'none');
+        deathTheme.setAttribute('href', 'css/color-normal.css');
         localStorage.setItem('themeColors', 'normal');
         themeColorsjs = 'normal';
     } else {
-        deathTheme.setAttribute('media', '');
+        deathTheme.setAttribute('href', 'css/color-death.css');
         localStorage.setItem('themeColors', 'death');
         themeColorsjs = 'death';
     }
@@ -37,17 +34,13 @@ colorsButton.onclick = () => {
 
 navbarButton.onclick = () => {
     if (themeNavbarjs == 'alt') {
-        navbarNormal.setAttribute('media', '');
-        navbarAlt.setAttribute('media', 'none');
-        responsiveNavbarNormal.setAttribute('media', '');
-        responsiveNavbarAlt.setAttribute('media', 'none');
+        navbarMode.setAttribute('href', 'css/navbar.css');
+        responsiveNavbarMode.setAttribute('href', 'css/responsive.css');
         localStorage.setItem('themeNavbar', 'normal');
         themeNavbarjs = 'normal';
     } else {
-        navbarNormal.setAttribute('media', 'none');
-        navbarAlt.setAttribute('media', '');
-        responsiveNavbarNormal.setAttribute('media', 'none');
-        responsiveNavbarAlt.setAttribute('media', '');
+        navbarMode.setAttribute('href', 'css/navbar-alt.css');
+        responsiveNavbarMode.setAttribute('href', 'css/responsive-alt.css');
         localStorage.setItem('themeNavbar', 'alt');
         themeNavbarjs = 'alt';
     }

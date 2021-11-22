@@ -116,6 +116,9 @@
         padding-top: 3rem;
         padding-bottom: 3rem;
     }
+    .txt_studio{
+        margin: 0em;
+    }
 } 
 
 @media (min-width: 1150px) {
@@ -152,4 +155,7 @@
     .nav-link svg {
         width: 2rem;
     } 
+    .txt_studio{
+        margin: 1em;
+    }
 } 
