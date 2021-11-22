@@ -52,14 +52,10 @@
     margin: 0 1.5rem;
 }
 
-
-
 a {
     color:currentColor;
     text-decoration: none;
 }
-
-
 
 .dropdown-item a {
     width: 100%;
