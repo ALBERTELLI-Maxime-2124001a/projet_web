@@ -11,6 +11,7 @@
 
 .space {
     padding-bottom: 100rem;
+    overflow: hidden;
 }
 
 body {
